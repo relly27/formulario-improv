@@ -1,0 +1,166 @@
+#footer1 {
+  background-image: url(banner-pie-de-pagina-web.png);
+  padding: 40px 0;
+  text-align: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  z-index: 1;
+}
+
+
+/* Media Queries para ajustar el footer en pantallas más pequeñas */
+@media (max-width: 768px) {
+  #footer {
+    padding: 1.5em 0; /* Menos padding en pantallas más pequeñas */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+  }
+  #footer1 {
+    padding: 1.5em 0; /* Menos padding en pantallas más pequeñas */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+  }
+}
+
+@media (max-width: 480px) {
+  #footer {
+    padding: 1em 0; /* Aún menos padding en pantallas muy pequeñas */
+    font-size: 0.8em; /* Tamaño de fuente aún más pequeño */
+  }
+
+  #footer1 {
+    padding: 1em 0; /* Aún menos padding en pantallas muy pequeñas */
+    font-size: 0.8em; /* Tamaño de fuente aún más pequeño */
+  }
+}
+
+/* Ajuste de texto en pantallas más pequeñas */
+@media (max-width: 576px) {
+  #footer {
+    font-size: 12px;
+    position: relative;
+  }
+
+  #footer1 {
+    font-size: 12px;
+    position: absolute;
+  }
+}
+@media (max-height: 760px) {
+  #footer {
+    font-size: 12px;
+    position: relative;
+  }
+
+  #footer1 {
+    font-size: 12px;
+    position: absolute;
+  }
+}
+
+.bienvenida {
+  background-image: url(cintillo.png);
+  color: #ffffff;
+  background-size: cover;
+  padding: 3% 20px;
+}
+
+.buttons {
+  width: 100%; 
+  margin: auto;
+}
+
+.input-date{
+    margin: 10px;
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #b7b9bb; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    background-color: #f8f9fa; /* Color de fondo */
+    transition: border-color 0.3s; 
+    
+}
+
+.label-date{
+    font-weight:500;
+    font-size: 20px;
+}
+
+.input-date:focus {
+    border-color: #3bd47b; /* Color del borde al enfocar */
+    outline: none; /* Elimina el contorno predeterminado */
+}
+
+@media (max-width: 576px) {
+    .buttons {
+    width: 60%;
+    margin: auto 0;
+    }
+}
+
+/* estilos de la tabla */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+.table {
+  width: 100%;
+  border-radius: 0.5rem; /* Bordes redondeados */
+  overflow: hidden; /* Oculta bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
+  background-color: white; /* Fondo blanco para la tabla */
+}
+
+.table-header {
+  background-color: #007bff; /* Color de fondo del encabezado */
+  color: white; /* Color del texto en el encabezado */
+}
+
+.table-header th {
+  padding: 14px; /* Espaciado interno en el encabezado */
+  text-align: center; /* Alinear texto a la izquierda */
+  font-weight: bold; /* Negrita para el encabezado */
+  text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+.table tbody tr {
+  transition: background-color 0.3s, transform 0.2s; /* Transición suave para el efecto hover */
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Color de fondo para filas impares */
+}
+
+.table tbody tr:hover {
+  background-color: #e0f7fa; /* Color de fondo al pasar el mouse */
+  transform: scale(1.02); /* Efecto de aumento al pasar el mouse */
+}
+
+.table td {
+  padding: 12px; /* Espaciado interno en celdas */
+  border: 1px solid #dee2e6; /* Borde de las celdas */
+}
+
+.table td:last-child {
+  border-right: none; /* Elimina el borde derecho de la última celda */
+}
+
+.table-responsive {
+  overflow-x: auto; /* Permite desplazamiento horizontal en pantallas pequeñas */
+  border-radius: 0.5rem; /* Bordes redondeados para el contenedor */
+}
+
+.container .mt-5 {
+  width: 100%; /* Ancho del contenedor */
+  margin: 5rem 0 0 0; /* Margen superior (mt-5) y sin margen lateral */
+  padding: 20px; /* Espaciado interno */
+  background-color: #ffffff; /* Fondo blanco para el contenedor */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  position: relative; /* Posicionamiento absoluto */
+  right: 0; /* Alinear a la derecha*/
+}
+
