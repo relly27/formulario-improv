@@ -78,6 +78,8 @@ if (sessionStorage.getItem('accessGranted') !== 'true') {
 
     // // Leer datos desde sessionStorage
     const data = JSON.parse(sessionStorage.getItem("persona"));
+    data.segundo_nombre = (data.segundo_nombre === null) ? "" : data.segundo_nombre
+    data.segundo_apellido = (data.segundo_apellido === null) ? "" : data.segundo_apellido
 
     function autoCompletarOCampos(inputId, valor) {
         const input = document.getElementById(inputId);
